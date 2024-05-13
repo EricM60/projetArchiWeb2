@@ -1,0 +1,17 @@
+[
+    {
+      "idDemandeur": "6123456789abcdef01234567",
+      "idMateriel": "abcdef012345678901234567",
+      "etat": "En attente",
+      "dateDemande": "2024-05-13T08:00:00.000Z",
+      "type": "meuble"
+    },
+    {
+      "idDemandeur": "aabbccddeeff112233445566",
+      "idMateriel": "1234567890abcdef09876543",
+      "etat": "Approuvée",
+      "dateDemande": "2024-05-12T10:30:00.000Z",
+      "type": "ordinateur"
+    }
+  ]
+  

@@ -1,0 +1,21 @@
+[
+    {
+      "statut": 1,
+      "salle": "b105",
+      "utilisateurconfier": {
+        "nom": "John Doe",
+        "email": "john.doe@u-picardie.fr"
+      },
+      "type": "Ordinateur"
+    },
+    {
+      "statut": 2,
+      "salle": "b106",
+      "utilisateurconfier": {
+        "nom": "Jane Smith",
+        "email": "jane.smith@u-picardie.fr"
+      },
+      "type": "Imprimante"
+    }
+  ]
+  

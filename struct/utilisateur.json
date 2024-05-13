@@ -1,0 +1,17 @@
+[
+    {
+      "nom": "John Doe",
+      "role": "Administrateur",
+      "type": "Employé",
+      "email": "john.doe@u-picardie.fr",
+      "mdp": "azerty"
+    },
+    {
+      "nom": "Jane Smith",
+      "role": "Modérateur",
+      "type": "Employé",
+      "email": "jane.smith@u-picardie.fr",
+      "mdp": "azerty2"
+    }
+]
+  
