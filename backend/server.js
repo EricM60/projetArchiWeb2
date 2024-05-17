@@ -2,7 +2,7 @@ const express = require('express')
 const app  = express()
 const mongoose = require('mongoose');
 mongoose.set('strictQuery',false);
-var routes = require('./route/routes');
+var routes = require('./routes/routes');
 const cors = require('cors');
 
 
@@ -22,7 +22,7 @@ app.listen(9992, function check(err)
   .then(() => console.log("Connected to database"))
   .catch((error) => console.log("Error connecting to database", error)); */
 
-  mongoose.connect('mongodb://127.0.0.1:27017/baseProjet', {
+  mongoose.connect('mongodb://127.0.0.1:27017/baseP2', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
