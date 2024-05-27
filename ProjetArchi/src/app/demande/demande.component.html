@@ -1,0 +1,25 @@
+<p>demande works!</p>
+
+
+<table>
+    <thead>
+      <tr>
+        <th>Statut</th>
+        <th>Salle</th>
+        <th>Type</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let demande of demandes">
+        <td>{{ demande.statut }}</td>
+        <td>{{ demande.salle }}</td>
+        <td>{{ demande.type }}</td>
+        <td>
+          <!--<button (click)="updateDemande(demande)">Update</button>
+          <button (click)="deleteDemande(demande)">Delete</button>-->
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  

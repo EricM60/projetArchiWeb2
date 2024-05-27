@@ -8,5 +8,12 @@ import { Component } from '@angular/core';
   styleUrl: './accueil.component.css'
 })
 export class AccueilComponent {
+  login(){
+    console.log("Hello, ");
+  }
+}
 
+
+function login(){
+  console.log("Hello, ");
 }
